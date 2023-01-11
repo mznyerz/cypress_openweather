@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testsAPI:run": "npx cypress run --headless --spec './cypress/e2e/api_tests/*.js' --browser chrome",
+    "testsE2E:run": "npx cypress run --headless --spec './cypress/e2e/*.js' --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}

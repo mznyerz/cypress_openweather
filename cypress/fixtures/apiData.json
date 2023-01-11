@@ -1,0 +1,80 @@
+{
+    "admin": {
+        "username": "admin",
+        "password": "password123"
+    },
+        "created": {
+            "firstname": "Andrey",
+            "lastname": "Lapin",
+            "totalprice": 700,
+            "depositpaid": true,
+            "bookingdates": {
+                "checkin": "2022-12-31",
+                "checkout": "2023-01-01"
+            },
+            "additionalneeds": "Offer"
+        },
+        "createdCorrectDataReponseTypes": {
+            "bookingid": "number",
+            "booking": "object"
+        },
+        "correctBookingItems": {
+            "firstname": "string",
+            "lastname": "string",
+            "totalprice": "number",
+            "depositpaid": "boolean",
+            "bookingdates": "object",
+            "additionalneeds": "string"
+        },
+        "correctBookingdatesItems": {
+            "checkin": "date",
+            "checkout": "date"
+        },
+        "correctDataReponseProperties": {
+            "obj": [
+                "bookingid",
+                "booking"
+            ],
+            "booking": [
+                "firstname",
+                "lastname",
+                "totalprice",
+                "depositpaid",
+                "bookingdates",
+                "additionalneeds"
+            ],
+            "bookingdates": [
+                "checkin",
+                "checkout"
+            ]
+        },
+        "getBookingHeaders": {
+            "properties": [
+                "server",
+                "connection",
+                "x-powered-by",
+                "content-type",
+                "content-length",
+                "etag",
+                "date",
+                "via"
+            ],
+            "content-type": {
+                "content-type": "application/json; charset=utf-8"
+            }
+        },
+        "updateDataPatch": {
+            "additionalneeds": "get Offer"
+        },
+        "updateDataPut": {
+                "firstname": "Andrew",
+                "lastname": "Lapin",
+                "totalprice": 900,
+                "depositpaid": true,
+                "bookingdates": {
+                    "checkin": "2022-12-31",
+                    "checkout": "2023-01-01"
+                },
+                "additionalneeds":"Offer"
+        }
+}

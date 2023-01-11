@@ -1,0 +1,17 @@
+{
+    "pageDescriptionWhiteText": "Weather forecasts, nowcasts and history in a fast and elegant way",
+    "searchInputText": {
+        "zipCode": "60604",
+        "cityName": "Washington"
+    },
+    "forecastDaysLength": 8,
+    "copyright": "©",
+    "tempretureScaleDefault": "°F, mph",
+    "tempretureScale": "°C, m/s",
+    "weatherDetails": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+    ]
+}

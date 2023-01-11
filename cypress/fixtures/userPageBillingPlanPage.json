@@ -1,0 +1,58 @@
+{
+    "billingPlansTables": [
+        [
+            [
+                "Base plan",
+                "2,000",
+                "Free limit per day: 1,000 calls After: 0.12 GBP per 100 calls",
+                "Subscribe"
+            ]
+        ],
+        [
+            [
+                "Free plan",
+                "60",
+                "Free",
+                "Default"
+            ],
+            [
+                "Startup plan",
+                "600",
+                "30 GBP",
+                "Subscribe"
+            ],
+            [
+                "Developer plan",
+                "3,000",
+                "140 GBP",
+                "Subscribe"
+            ],
+            [
+                "Professional plan",
+                "30,000",
+                "370 GBP",
+                "Subscribe"
+            ],
+            [
+                "Enterprise plan",
+                "200,000",
+                "1500 GBP",
+                "Subscribe"
+            ]
+        ],
+        [
+            [
+                "Starter plan",
+                "5,000",
+                "120 GBP",
+                "Subscribe"
+            ],
+            [
+                "Medium plan",
+                "50,000",
+                "700 GBP",
+                "Subscribe"
+            ]
+        ]
+    ]
+}

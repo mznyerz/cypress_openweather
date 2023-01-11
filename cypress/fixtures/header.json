@@ -1,0 +1,19 @@
+{
+    "supportDropDownLength":3,
+    "supportDropdownList": ["FAQ", "How to start", "Ask a question"],
+    "mainMenuList": [
+        "Guide",
+        "API",
+        "Dashboard",
+        "Marketplace",
+        "Pricing",
+        "Maps",
+        "Our Initiatives",
+        "Partners",
+        "Blog",
+        "For Business",
+        "Sign in",
+        "Support"
+      ],
+    "userAccountHeaderDropdownMenu": ["My services", "My API keys", "My payments", "My profile", "Logout"]
+}

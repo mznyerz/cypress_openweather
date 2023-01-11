@@ -1,0 +1,20 @@
+{
+    "API": "https://openweathermap.org/api",
+    "technology": "https://openweathermap.org/technology",
+    "weatherDashboard": "https://openweathermap.org/weather-dashboard",
+    "historyBulk": "https://openweathermap.org/history-bulk",
+    "subscriptions": "https://home.openweathermap.org/subscriptions",
+    "guide": "https://openweathermap.org/guide",
+    "market": "https://home.openweathermap.org/marketplace",
+    "pricing": "https://openweathermap.org/price",
+    "openStreetMap": "https://www.openstreetmap.org/copyright",
+    "solarRadiation": "https://openweathermap.org/api/solar-radiation",
+    "aboutUs": "https://openweathermap.org/about-us",
+    "apiCurrent": "https://openweathermap.org/api#current",
+    "placeOrderHistoryBulk": "https://home.openweathermap.org/history_bulks/new",
+    "questions": "https://home.openweathermap.org/questions",
+    "newsAndUpdates": "https://openweather.co.uk/blog/category/weather",
+    "termsAndConditionsOfSale": "https://openweather.co.uk/storage/app/media/Terms/Openweather_website_terms_and_conditions_of_use.pdf",
+    "dashboardEvents": "https://home.openweathermap.org/dashboard/events",
+    "signIn": "https://home.openweathermap.org/users/sign_in"
+}

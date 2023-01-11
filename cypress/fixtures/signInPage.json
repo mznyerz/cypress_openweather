@@ -1,0 +1,18 @@
+{
+  "signOutAlertText": "You need to sign in or sign up before continuing.",
+  "signInSuccessful": "Signed in successfully.",
+  "userAccountMenu": [
+    "My services",
+    "My API keys",
+    "My payments",
+    "My profile",
+    "Logout"
+  ],
+  "userProfile": {
+    "userName": "Andrey L.",
+    "email": "test.mail.for.openweathermap@gmail.com",
+    "password": "abc2323.",
+    "newPassword": "abc2323.zksl20zm"
+  },
+  "messageSuccessPasswordChange": "Password was changed successfully"
+}
