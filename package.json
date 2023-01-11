@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testsAPI:run": "npx cypress run --headless --spec './cypress/e2e/api_tests/*.js' --browser chrome",
-    "testsE2E:run": "npx cypress run --headless --spec './cypress/e2e/*.js' --browser chrome"
+    "testsAPI": "npx cypress run --headless --spec './cypress/e2e/api_tests/*.js' --browser chrome",
+    "testsE2E": "npx cypress run --headless --spec './cypress/e2e/*.js' --browser chrome"
   },
   "keywords": [],
   "author": "",
