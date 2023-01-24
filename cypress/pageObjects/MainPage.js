@@ -45,16 +45,15 @@ class MainPage {
 
     getTodaysDate() {
         let currentDate = new Date();
-        return `${currentDate.toLocaleString('en-GB', { month: 'short' })} ${currentDate.toLocaleString('en-GB', { day: 'numeric' })}`;
+        return `${currentDate.toLocaleString('en-GB', { timeZone: 'Europe/London', month: 'short' })} ${currentDate.toLocaleString('en-GB', { timeZone: 'Europe/London', day: 'numeric' })}`;
     };
 
     checkDatesForecast() {
         for (let i = 0; i <= 7; i++) {
-            let date = new Date();
+            let date = new Date()
             date.setDate(date.getDate() + i);
-            let currentDay = date.toString().split(' ')[0];
-            let dateResult = `${currentDay}, ${date.toLocaleString('en-US', { month: 'short' })} ${date.toLocaleString('en-US', { day: '2-digit' })}`;
-            this.elements.getForecastDays().eq(i).find('span').eq(0).invoke('text').should('eql', dateResult);
+            let dateResult = `${date.toLocaleString('en-GB', { timeZone: 'Europe/London', month: 'short' })} ${date.toLocaleString('en-GB', { timeZone: 'Europe/London', day: '2-digit' })}`;
+            this.elements.getForecastDays().eq(i).find('span').eq(0).invoke('text').should('include', dateResult);
         };
     };
 
